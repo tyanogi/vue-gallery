@@ -156,5 +156,6 @@ export default {
 }
 .blueimp-gallery-controls > .description {
   display: block;
+  margin-top: 15px;
 }
 </style>
