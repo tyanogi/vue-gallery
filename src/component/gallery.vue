@@ -128,7 +128,8 @@
 
         const image = this.images[index];
         if (image !== undefined) {
-          const text = image.description;
+          //const text = image.description;
+          const text = image.message;
           const node = this.instance.container.find('.description');
           if (text) {
             node.empty();
